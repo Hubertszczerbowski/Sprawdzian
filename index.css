@@ -1,0 +1,131 @@
+body, html{
+    background-color: rgb(202, 202, 202);
+}
+.all{
+    background-color: white;
+    width: 75%;
+    height: 929px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+}
+main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.box3{
+    display: block;
+    width: 33%;
+}
+.box1{
+    background-color: rgb(202, 202, 202);
+    width: 450px;
+    height: 150px;
+    display: flex;
+    margin: 20px;
+}
+.p1{
+    padding: 10px;
+}
+.black12{
+    background-color: rgb(202, 202, 202);
+    width: 60%;
+    height: 490px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.black{
+    background-color: black;
+    width: 170px;
+    height: 110px;
+    margin: 19px;
+}
+.row1{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.row2{
+    display: flex;
+    margin-left: 15px;
+}
+.row3{
+    display: flex;
+    margin-left: 15px;
+}
+footer{
+    display: flex;
+}
+.green{
+    background-color: rgb(136, 236, 106);
+    width: 650px;
+    height: 279px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.red{
+    background-color: rgb(255, 86, 120);
+    width: 650px;
+    height: 279px;
+    margin-left: 57px;
+    margin-top: 30px; 
+}
+@media  (max-width: 600px){
+    body,html{
+        background-color: white;
+    }
+    .all{
+        width: 100%;
+        height: 100%;
+    }
+    header{
+        background-color:  rgb(224, 224, 224);
+        height: 130px;
+        width: 100vw;
+    }
+    main{
+        display: block;
+        width: 100%;
+        height:  1050px;
+    }
+    .black12{
+        display:  flex;
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+    }
+    .row1{
+        display: block;
+    }
+    .row2{
+        display: block;
+    }
+    .row3{
+        visibility: hidden;
+        margin-left: -300px;
+    }
+    .black1{
+        height: 200px;
+        width: 200px;
+    }
+    footer{
+        display: block;
+    }
+    .green{
+        width: 100%;
+        height: 300px;
+        margin-left: 6px;
+    }
+    .red{
+        width: 100%;
+        height: 300px;
+        margin-left: 6px;
+        margin-top: 0px;
+    }
+
+}
